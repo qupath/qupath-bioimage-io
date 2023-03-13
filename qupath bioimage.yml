@@ -1,0 +1,61 @@
+format_version: 0.2.2
+type: collection
+name: QuPath Collection
+tags: [qupath, bioimage.io]
+description: "Resources for BioImgage.IO curated by the QuPath team."
+
+authors:
+  - name: "Peter Bankhead"
+    github_user: petebankhead
+    affiliation: "University of Edinburgh"
+    orcid: "0000-0003-4851-8813"
+  - name: "Fiona Inglis"
+    github_user: finglis
+    affiliation: "University of Edinburgh"
+    orcid: "0009-0009-4322-8439"
+
+maintainers:
+  - name: "Peter Bankhead"
+    github_user: petebankhead
+    affiliation: "University of Edinburgh"
+    orcid: "0000-0003-4851-8813"
+  - name: "Fiona Inglis"
+    github_user: finglis
+    affiliation: "University of Edinburgh"
+    orcid: "0009-0009-4322-8439"
+
+config: 
+  id: qupath
+  name: QuPath
+  tags:
+    - qupath
+  logo: https://raw.githubusercontent.com/qupath/qupath-bioimage-io/main/logos/QuPath_256.png
+  icon: https://raw.githubusercontent.com/qupath/qupath-bioimage-io/main/logos/QuPath_256.png
+  splash_title: QuPath
+  splash_subtitle: "QuPath is open-source software for bioimage analysis and digital pathology"
+  splash_feature_list:
+  explore_button_text: "Start Exploring"
+  background_image: "static/img/zoo-background.svg"
+  resource_types:
+    - application
+  default_type: model
+  url_root: https://github.com/qupath/qupath-bioimage-io
+
+collection:
+  - id: QuPath
+    name: QuPath
+    description: "QuPath is open-source software for bioimage analysis and digital pathology"
+    format_version: 0.2.2
+    source: https://github.com/qupath
+    type: application
+    authors:
+      - name: QuPath Team
+    maintainers:
+      - name: QuPath Team
+        github_user: None
+    cite:
+      - text: "QuPath: Open source software for digital pathology image analysis. Scientific Reports (2017)."
+        doi: 10.1038/s41598-017-17204-5
+    documentation: https://qupath.readthedocs.io/
+    covers: ["https://raw.githubusercontent.com/qupath/qupath-bioimage-io/main/logos/QuPath_256.png"]
+    icon: https://raw.githubusercontent.com/qupath/qupath-bioimage-io/main/logos/QuPath_256.png

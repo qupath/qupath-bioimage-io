@@ -1,2 +1,3 @@
-# qupath-bioimage-io
-QuPath resources for Bioimage.IO
+# QuPath Bioimage.IO Resources 
+
+QuPath resources for [Bioimage.IO](https://bioimage.io/).
