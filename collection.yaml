@@ -38,6 +38,7 @@ config:
   background_image: "static/img/zoo-background.svg"
   resource_types:
     - application
+    - model
   default_type: model
   url_root: https://github.com/qupath/qupath-bioimage-io
 
