@@ -41,6 +41,14 @@ config:
     - model
   default_type: model
   url_root: https://github.com/qupath/qupath-bioimage-io
+  docs: https://qupath.readthedocs.io/en/stable/
+  contact:
+    - name: Pete Bankhead 
+      email: p.bankhead@ed.ac.uk
+      github: petebankhead
+      affiliation:
+        - name: UoE
+          url: https://www.ed.ac.uk
 
 collection:
   - id: QuPath
